@@ -1,4 +1,19 @@
-# Crystal (milestone 3: tabs, navigation, shortcuts)
+<p align="center"><img src="docs/icon-256.png" width="128" alt="Crystal icon"></p>
+
+<h1 align="center">Crystal</h1>
+<p align="center">A featherweight, frosted-glass browser for macOS. Native SwiftUI on Apple's WebKit, about 1.6 MB.</p>
+<p align="center"><a href="https://github.com/abhidatta-s/crystal/releases/latest"><b>Download the latest release</b></a></p>
+
+<p align="center"><img src="docs/crystal-light.jpg" alt="Crystal in light mode" width="49%"> <img src="docs/crystal-dark.jpg" alt="Crystal in dark mode" width="49%"></p>
+
+## Install
+1. Download `Crystal-0.1.0-macOS-arm64.zip` from [Releases](https://github.com/abhidatta-s/crystal/releases/latest) and unzip it.
+2. Move **Crystal** to your Applications folder.
+3. Crystal is free and not notarized, so the first time, right-click it and choose **Open**, then confirm. If macOS still blocks it, go to System Settings > Privacy & Security and click **Open Anyway**.
+
+Requires macOS 14 or later on Apple silicon.
+
+## Build from source
 
 A tiny native macOS browser: SwiftUI + AppKit, the system WebKit engine, and a
 frosted-glass window. Vertical tabs in a collapsible sidebar, a slim toolbar,
